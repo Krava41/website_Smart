@@ -1,0 +1,21 @@
+@import "includes/settings";
+
+body
+{
+	display: flex;
+	justify-content: center;
+
+	background: linear-gradient( to right, #CA3C8E, #004B9A);
+}
+
+.container
+{
+	width: $width;	
+}
+
+header
+{
+	display: flex;
+	justify-content: center;
+	background: $colorBackgroundHeader;
+}

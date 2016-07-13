@@ -1,0 +1,39 @@
+// Define variables
+
+	//Main setup
+	$width: 800px;
+	$fontSize: 18px;
+	$red: #ff4747;
+
+	// Header
+	$colorTextLogo: #1a2755;
+	$colorBackgroundHeader: #fcfcfc;
+
+	//Header nav
+	$colorTextNav: #3b5998;
+	$colorBackgroundNav: #3b5998;
+	$colorBorderNav: #3b5998;
+
+	// Section
+	$fontSizeHeader: 30px;
+
+// reset default style
+body, header, main, footer, aside, div, p, h1, h2, h3, figure, figcaption, a  
+{
+	all: unset;
+	font-size: $fontSize;
+	font-family: Arial;
+}
+
+ul, li
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+*
+{
+	box-sizing: border-box;
+}
+
