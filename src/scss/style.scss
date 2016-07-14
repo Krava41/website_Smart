@@ -59,6 +59,32 @@ body
 .main
 {
 	flex: 2;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.main p
+{
+	flex: 1;
+
+	font-size: $fontSize;
+	color: #ffffff;
+	padding: 10px;
+}
+
+.main figure
+{
+	flex: 1;
+}
+
+.main figcaption
+{
+	display: block;
+	color: #ffffff;
+	font-size: $sizeCaption;
+	text-align: right;
+//	padding-right: 35px;
 }
 
 // Style ASIDE
@@ -94,3 +120,4 @@ body
 	font-size: 14px;
 	color: #ffffff;
 }
+
