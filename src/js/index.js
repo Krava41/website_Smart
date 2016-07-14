@@ -14,39 +14,47 @@
 	let $seo = $('.seo')
 	let $support = $('.support')
 	let $project = $('.project')
+
+	// variables of templates
+
+	let $tempDesign = $('.windowDesign')
+	let $tempDevelop = $('.windowDevelop')
+	let $tempTech = $('.windowTech')
+	let $tempSeo = $('.windowSeo')
+	let $tempSupport = $('.windowSupport')
+	let $tempProject = $('.windowProject')	
 	
 	let $navLinks = document.querySelectorAll('.navLink')
 
 	for (let $navLink of $navLinks) {
 		$navLink.addEventListener('click', () =>
 		{	
-			console.log(event.target.classList[0])
+			let {target} = event
 
-			switch (event.target.classList[0])
+			console.log(target.classList[0])
+
+			switch (target.classList[0])
 			{
 				case 'design': 
-					$main.innerHTML = $design.innerHTML 
+					$main.innerHTML = $tempDesign.innerHTML 
 					return
 				case 'develop': 
-					$main.innerHTML = $develop.innerHTML
+					$main.innerHTML = $tempDevelop.innerHTML
 					return
 				case 'tech': 
-					$main.innerHTML = $tech.innerHTML
+					$main.innerHTML = $tempTech.innerHTML
 					return
 				case 'seo': 
-					$main.innerHTML = $seo.innerHTML
+					$main.innerHTML = $TempSeo.innerHTML
 					return
 				case 'support': 
-					$main.innerHTML = $support.innerHTML
+					$main.innerHTML = $TempSupport.innerHTML
 					return
 				case 'project': 
-					$main.innerHTML = $project.innerHTML
+					$main.innerHTML = $TempProject.innerHTML
 					return
 				default: console.log('Ups. Error in nav!!')
 			}
 		})
 	}
-
-	
-
 })()
