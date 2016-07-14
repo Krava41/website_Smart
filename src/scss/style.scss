@@ -4,18 +4,89 @@ body
 {
 	display: flex;
 	justify-content: center;
-
+	
 	background: linear-gradient( to right, #CA3C8E, #004B9A);
 }
 
 .container
 {
 	width: $width;	
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
-header
+
+.header
+{	
+	flex-basis: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+	margin-bottom: 30px;
+}
+
+
+
+.header a
+{
+	font-size: 31.76px;
+	color: #ffffff;
+
+	text-transform: uppercase;
+	text-align: center;
+}
+
+// Style NAV
+.nav
+{
+	font-size: 21.2px;
+	color: #ffffff;
+}
+
+nav li
+{
+	padding: 30px;
+}
+
+// Style MAIN
+.main
+{
+	flex: 2;
+}
+
+// Style ASIDE
+.aside
 {
 	display: flex;
 	justify-content: center;
-	background: $colorBackgroundHeader;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+
+.aside img
+{
+	padding: 10px;
+}
+
+// Style FOOTER
+.footer
+{
+	flex-basis: 100%;
+}
+
+.footer ul
+{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.footer li
+{
+	font-size: 14px;
+	color: #ffffff;
 }
