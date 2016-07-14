@@ -1,11 +1,18 @@
 nav(class="nav")
-				ul
-					-
-						navMenu = ["Дизайн",
-								"Разработка",
-								"Технологии",
-								"Продвижение",
-								"Поддержка",
-								"Портфолио"]
-					each item in navMenu
-						li= item
+	ul
+		-
+			navMenu = ["Дизайн",
+						"Разработка",
+						"Технологии",
+						"Продвижение",
+						"Поддержка",
+						"Портфолио"]
+			classMenu = ["design",
+						"develop",
+						"tech",
+						"seo",
+						"support",
+						"project"]						
+		each item, index in navMenu
+			li
+				a(href="#" title=item class=classMenu[index] class='navLink')= item

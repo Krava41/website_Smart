@@ -28,8 +28,6 @@ body
 	margin-bottom: 30px;
 }
 
-
-
 .header a
 {
 	font-size: 31.76px;
@@ -46,10 +44,16 @@ body
 	color: #ffffff;
 }
 
-nav li
+.nav li
 {
 	padding: 30px;
 }
+
+.nav a:hover
+{
+	opacity: 0.53;
+}
+
 
 // Style MAIN
 .main

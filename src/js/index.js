@@ -1,73 +1,52 @@
-(() =>
+(() => 
 {
 	"use strict"
 
 	NodeList.prototype[Symbol.iterator] = [][Symbol.iterator]
 	console.log("It's ok!!!")
 
-	const $ = selector => document.querySelector(selector)
-	let $body = $('body')
+	const $ = (selector) => document.querySelector(selector)
 
-	// Box Lang
-	let $menuLang = $('.menu_Lang')
-	let $ulLang = $menuLang.querySelector('ul')
+	let $main = $('.main')
+	let $design = $('.design')
+	let $develop = $('.develop')
+	let $tech = $('.tech')
+	let $seo = $('.seo')
+	let $support = $('.support')
+	let $project = $('.project')
+	
+	let $navLinks = document.querySelectorAll('.navLink')
 
-	$menuLang.addEventListener('click', () =>
-	{
-		if ( $ulLang.style.display == 'block' ) return
+	for (let $navLink of $navLinks) {
+		$navLink.addEventListener('click', () =>
+		{	
+			console.log(event.target.classList[0])
 
-		if ( $ulCurrency.style.display == 'block' )
-			$ulCurrency.style.display = 'none'
-
-		$ulLang.style.display = 'block'
-
-		event.stopPropagation()
-	})
-
-	//Box Currency
-	let $menuCurrency = $('.menu_Currency')
-	let $ulCurrency = $menuCurrency.querySelector('ul')
-
-	$menuCurrency.addEventListener('click', () =>
-	{
-		if ( $ulCurrency.style.display == 'block' ) return
-
-		if ( $ulLang.style.display == 'block' )
-			$ulLang.style.display = 'none'
-
-		$ulCurrency.style.display = 'block'
-
-		event.stopPropagation()
-	})
-
-	let $lis = document.querySelectorAll('li')
-
-	for (let $li of $lis)
-	{
-		$li.addEventListener('click', () => 
-		{
-			if ( event.currentTarget.parentNode.className) return
-					console.log('li')	
-			let {target} = event
-			let text = document.createTextNode(target.textContent)
-			let menu = target.parentNode.parentNode
-
-			if ( menu.firstChild.TEXT_NODE == 3 ) {
-				console.log(3)
-				menu.removeChild(menu.firstChild)
+			switch (event.target.classList[0])
+			{
+				case 'design': 
+					$main.innerHTML = $design.innerHTML 
+					return
+				case 'develop': 
+					$main.innerHTML = $develop.innerHTML
+					return
+				case 'tech': 
+					$main.innerHTML = $tech.innerHTML
+					return
+				case 'seo': 
+					$main.innerHTML = $seo.innerHTML
+					return
+				case 'support': 
+					$main.innerHTML = $support.innerHTML
+					return
+				case 'project': 
+					$main.innerHTML = $project.innerHTML
+					return
+				default: console.log('Ups. Error in nav!!')
 			}
-
-			menu.insertBefore(text, menu.firstChild)
 		})
 	}
 
+	
 
-	$body.addEventListener('click', () =>
-	{
-		if ( $ulLang.style.display == 'block' )
-			$ulLang.style.display = 'none'
-
-		if ( $ulCurrency.style.display == 'block' )
-			$ulCurrency.style.display = 'none'
-	})
 })()
