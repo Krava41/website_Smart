@@ -4,8 +4,41 @@ body
 {
 	display: flex;
 	justify-content: center;
-	
+}
+
+.bg_main
+{
 	background: linear-gradient( to right, #CA3C8E, #004B9A);
+}
+
+.bg_design
+{
+	background: linear-gradient( to right, #f0c833, #cd591e);
+}
+
+.bg_develop
+{
+	background: linear-gradient( to right, #e2ab35, #519f48);
+}
+
+.bg_tech
+{
+	background: linear-gradient( to right, #797ab6, #3e84bb);
+}
+
+.bg_seo
+{
+	background: linear-gradient( to right, #73bded, #294c97);
+}
+
+.bg_support
+{
+	background: linear-gradient( to right, #787ab6, #3e84bb);
+}
+
+.bg_project
+{
+	background: linear-gradient( to right, #f0c833, #cd591e);
 }
 
 .container
@@ -52,6 +85,7 @@ body
 .nav a:hover
 {
 	opacity: 0.53;
+	cursor: pointer;
 }
 
 
