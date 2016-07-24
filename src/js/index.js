@@ -43,30 +43,30 @@
 				case 'design': 
 					$main.innerHTML = $tempDesign.innerHTML
 					$body.className = "bg_design"
-					return
+					break
 				case 'develop':
 					$main.innerHTML = $tempDevelop.innerHTML
 					$body.className = "bg_develop"
-					return
+					break
 				case 'tech': 
 					$main.innerHTML = $tempTech.innerHTML
 					$body.className = "bg_tech"
-					return
+					break
 				case 'seo': 
 					$main.innerHTML = $tempSeo.innerHTML
 					$body.className = "bg_seo"
-					return
+					break
 				case 'support': 
 					$main.innerHTML = $tempSupport.innerHTML
 					$body.className = "bg_support"
-					return
+					break
 				case 'project': 
 					$main.innerHTML = $tempProject.innerHTML
 					$body.className = "bg_project"
-					return
+					break
 				default: console.log('Ups. Error in nav!!')
 			}
-			
+			console.log(event.preventDefault())
 			event.preventDefault()
 		})
 	}
