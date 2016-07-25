@@ -60,17 +60,64 @@ body
 
 	margin-top: 10px;
 	margin-bottom: 30px;
+
+//	border: 1px solid blue;
+}
+
+.wrap_link
+{
+	display: flex;
+
 }
 
 .header a
 {
+	width: 240px; height: 40px;
+
+	display: block;
+//	justify-content: center;
+//	border: 2px solid green;
+
 	font-size: 31.76px;
 	color: #ffffff;
 
-	letter-spacing: -0.8;
-	text-transform: uppercase;
-	text-align: center;
+//	text-transform: uppercase;
+//	text-align: center;
 }
+
+.header a img
+{
+//	border: 1px solid red;
+//	width: 240px;
+}
+
+.empty,
+.text_prof
+{
+	width: 100%;
+}
+
+.empty
+{
+//	border: 1px solid orange;
+}
+
+.text_prof
+{
+	height: 40px;
+//	border: 3px solid navy;
+}
+.text_prof img
+{
+	width: 300px; height: 40px;
+//	border: 3px solid navy;
+}
+
+.logo
+{
+//	border: 1px solid yellow;
+}
+
 
 // Style NAV
 .nav
