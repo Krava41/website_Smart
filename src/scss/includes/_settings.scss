@@ -1,8 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300);
+
 // Define variables
 
 	//Main setup
-	$width: 800px;
-	$fontSize: 14px;
+	$width: 1200px;
+	$fontSize: 18px;
 	$sizeCaption: 34px;
 	$red: #ff4747;
 
@@ -19,11 +21,12 @@
 	$fontSizeHeader: 30px;
 
 // reset default style
-body, header, main, footer, aside, div, p, h1, h2, h3, figure, figcaption, a  
+body, header, main, footer, nav, aside, div, p, h1, h2, h3, figure, figcaption, a  
 {
 	all: unset;
 	font-size: $fontSize;
-	font-family: Arial;
+	font-family: 'Open Sans', Arial, Impact;
+	//font-weight: 300;
 }
 
 ul, li
