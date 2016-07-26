@@ -1,14 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
 	 xmlns:xlink="http://www.w3.org/1999/xlink"
 	 width="350px" height="400px"
-	 viewBox="0 0 350 400" 
+	 viewBox="0 0 350 420" 
 	 >
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
 </style>
 
-<rect x="0" y="0" width="350" height="400" fill="none" stroke="red" />
 <g>
 	<path class="st0" d="M196.7,55.1l-4.1,46.4l-18.3,5.1l-18.2-5.1l-4.1-46.5H196.7 M198.4,53.5h-48.3l4.4,49.3l19.7,5.5l19.8-5.5
 		L198.4,53.5L198.4,53.5z"/>
