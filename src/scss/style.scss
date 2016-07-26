@@ -146,7 +146,6 @@ body
 	cursor: pointer;
 }
 
-
 // Style MAIN
 .main
 {
@@ -179,7 +178,11 @@ body
 	color: #ffffff;
 	font-size: $sizeCaption;
 	text-align: right;
-//	padding-right: 35px;
+}
+
+.tech figcaption
+{
+	text-align: center;
 }
 
 // Style ASIDE
