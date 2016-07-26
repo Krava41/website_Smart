@@ -186,7 +186,6 @@ body
 	text-align: right;
 }
 
-.tech figcaption
 .fig_tech img,
 .fig_design img,
 .fig_develop img,
@@ -196,6 +195,11 @@ body
 	max-width: 100%;
 
 }
+
+.fig_tech figcaption,
+.fig_design figcaption,
+.fig_develop figcaption,
+.fig_seo figcaption
 {
 	text-align: center;
 }
