@@ -2,7 +2,18 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="240px" height="40px">
 	
+	<path id="path">
+		<animate attributeName="d"
+				from="m0,30 h0"
+				to="m0,30 h240"
+				dur="5s"
+				begin="0s"
+				fill="freeze" />
+	</path>
+
 	<text x="0" y="30" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300">
-		SMART-SITE.PRO
+		<textPath xlink:href="#path">
+			SMART-SITE.PRO
+		</textPath>
 	</text>
 </svg>
