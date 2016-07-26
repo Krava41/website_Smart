@@ -59,7 +59,7 @@ body
 	flex-direction: column;
 
 	margin-top: 10px;
-	margin-bottom: 30px;
+	margin-bottom: 10px;
 
 //	border: 1px solid blue;
 }
@@ -130,6 +130,11 @@ body
 	padding: 23.5px 45px;
 }
 
+.nav li:nth-child(1)
+{
+	padding-top: 0;
+}
+
 .nav a
 {
 	font-size: 21.2px;
@@ -180,7 +185,7 @@ body
 .aside
 {
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
 	flex-direction: column;
 	flex-wrap: wrap;
 
@@ -189,6 +194,11 @@ body
 .aside img
 {
 	padding: 10px;
+}
+
+.aside img:nth-child(1)
+{
+	padding-top: 4px;
 }
 
 // Style FOOTER
