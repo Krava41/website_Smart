@@ -166,9 +166,15 @@ body
 	padding: 10px;
 }
 
+.fig_develop + p
+{
+	padding: auto 0;
+}
+
 .main figure
 {
 	flex: 1;
+
 }
 
 .main figcaption,
@@ -181,8 +187,24 @@ body
 }
 
 .tech figcaption
+.fig_tech img,
+.fig_design img,
+.fig_develop img,
+.fig_seo img,
+.fig_support img
+{
+	max-width: 100%;
+
+}
 {
 	text-align: center;
+}
+
+.fig_support figcaption
+{
+	text-align: right;
+	margin-top: -101px;
+	display: none;
 }
 
 // Style ASIDE
