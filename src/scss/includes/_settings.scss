@@ -41,3 +41,35 @@ ul, li
 	box-sizing: border-box;
 }
 
+
+//Animation background
+$animAngel: 90deg;
+
+@mixin anim_background
+{
+	.bg_main,
+	.bg_design,
+	.bg_develop,
+	.bg_tech,
+	.bg_seo,
+	.bg_support,
+	.bg_project
+	{
+		background-size: 400% 400%;
+		animation: anim_bg 30s ease infinite;
+	}
+
+	@keyframes anim_bg
+	{
+		0%{background-position:0% 50%}
+    	50%{background-position:100% 50%}
+    	100%{background-position:0% 50%}
+	}	
+}
+
+
+
+
+
+
+
