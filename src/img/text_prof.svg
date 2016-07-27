@@ -6,8 +6,8 @@
 		<animate attributeName="d"
 				from="m0,30 h0"
 				to="m0,30 h300"
-				dur="7s"
-				begin="5s"
+				dur="3s"
+				begin="2s"
 				fill="freeze"
 				id="print" />
 	</path>
@@ -17,7 +17,7 @@
 			attributeName="dx"
 			to="500 400 200 200 200 200 200 200 200"	
 			dur="20s"
-			begin="print.end + 1s"
+			begin="print.end - 1s"
 			calcMode="linear"
 			
 			fill="freeze"
@@ -28,8 +28,8 @@
 					attributeName="fill-opacity"
 					from="1"
 					to="0"
-					dur="5s"
-					begin="run_text.begin +1s"
+					dur="3s"
+					begin="run_text.begin"
 					fill="freeze"/>
 		</textPath>
 

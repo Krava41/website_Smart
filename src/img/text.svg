@@ -6,7 +6,7 @@
 		<animate attributeName="d"
 				from="m0,30 h0"
 				to="m0,30 h240"
-				dur="5s"
+				dur="2s"
 				begin="0s"
 				fill="freeze" />
 	</path>
