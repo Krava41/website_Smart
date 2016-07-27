@@ -27,7 +27,6 @@ gulp.task('jade', function()
 		.pipe(connect.reload())		
 })
 
-
 // scss 
 gulp.task('scss', function ()
 {
