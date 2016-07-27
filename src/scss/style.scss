@@ -148,11 +148,23 @@ body
 	font-size: 21.2px;
 }
 
+.nav a:visited
+{
+	opacity: 0.53;
+}
+
 .nav a:hover
 {
 	opacity: 0.53;
 	cursor: pointer;
 }
+
+.selected
+{
+	opacity: 0.53;	
+}
+
+
 
 // Style MAIN
 .main
