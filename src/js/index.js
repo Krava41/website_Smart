@@ -1,4 +1,4 @@
-(() => 
+(function()
 {
 	"use strict"
 
@@ -8,12 +8,19 @@
 	let $ = (selector) => document.querySelector(selector)
 	let $All = (selector) => document.querySelectorAll(selector)
 
+	let svgIcon = $('.aside').querySelector('svg').querySelector("g")
+
+
 	if ( location.pathname == '/design_.html' )
 		$('.design').className = $('.design').className.concat(' selected')
 	if ( location.pathname == '/develop_.html' )
 		$('.develop').className = $('.develop').className.concat(' selected')
 	if ( location.pathname == '/tech_.html' )
+	{
 		$('.tech').className = $('.tech').className.concat(' selected')
+		
+	svgIcon.setAttribute("id", "icon")
+	}
 	if ( location.pathname == '/seo_.html' )
 		$('.seo').className = $('.seo').className.concat(' selected')
 	if ( location.pathname == '/support_.html' )
