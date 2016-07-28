@@ -4,14 +4,15 @@
 	
 	<path id="path">
 		<animate attributeName="d"
-				from="m0,30 h0"
-				to="m0,30 h240"
+				from="M0,30 h0"
+				to="M0,30 h240"
 				dur="2s"
-				begin="0s"
-				fill="freeze" />
+				begin="1s"
+				fill="freeze"
+				id="text_run" />
 	</path>
 
-	<text x="0" y="30" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300">
+	<text x="0" y="0" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300">
 		<textPath xlink:href="#path">
 			SMART-SITE.PRO
 		</textPath>

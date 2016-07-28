@@ -2,17 +2,17 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="100%" height="40px">
 
-	<path id="path">
+	<path id="path1">
 		<animate attributeName="d"
-				from="m0,30 h0"
-				to="m0,30 h300"
+				from="M0,30 h0"
+				to="M0,30 h300"
 				dur="3s"
-				begin="2s"
+				begin="3s"
 				fill="freeze"
 				id="print" />
 	</path>
 
-	<text id="text_prof" x="0" y="30" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300" dx="0 1 1 1 1 1 1 1 1" fill-opacity="1">
+	<text id="text_prof" x="0" y="0" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300" dx="0 1 1 1 1 1 1 1 1" fill-opacity="1">
 		<animate 
 			attributeName="dx"
 			to="500 400 200 200 200 200 200 200 200"	
@@ -22,7 +22,7 @@
 			
 			fill="freeze"
 			id="run_text"/>
-		<textPath xlink:href="#path">
+		<textPath xlink:href="#path1">
 			FESSIONAL
 				<animate 
 					attributeName="fill-opacity"
