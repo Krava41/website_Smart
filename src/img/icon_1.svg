@@ -1,46 +1,47 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
-	width="30" height="40"
-	viewBox="0 0 30 40">
+	width="30" height="45"
+	viewBox="0 0 30 45">
 	<style type="text/css">
-		.st0{fill:#FFFFFF;}
-		.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#FFFFFF;}
+		.icon1_sm{fill:#FFFFFF;}
 	</style>
 
-	<g stroke="red">
+	<g>
 		<g>
-			<path class="st0" d="M21.7,7.5l-2,21.2l-8.3,2.2l-8.3-2.2l-2-21.2H21.7 M22.5,6.8H0.3l2.1,22.5l9,2.4l9-2.4L22.5,6.8L22.5,6.8z"
+			<path class="icon1_sm" d="M21.7,7.5l-2,21.2l-8.3,2.2l-8.3-2.2l-2-21.2H21.7 M22.5,6.8H0.3l2.1,22.5l9,2.4l9-2.4L22.5,6.8L22.5,6.8z"
 				/>
 			<g>
-				<polygon class="st0" points="6.3,3.5 6.3,2.1 8.3,2.1 8.3,0.7 4.8,0.7 4.8,4.8 8.3,4.8 8.3,3.5 				"/>
-				<path class="st0" d="M11.8,2.1h1.4V0.7H9.7c0,0,0,0.7,0,1.5c0.5,0.5,0.7,0.7,1.4,1.3c-0.4,0-1.4,0-1.4,0v1.3h3.4V3.5L11.8,2.1z"
+				<polygon class="icon1_sm" points="6.3,3.5 6.3,2.1 8.3,2.1 8.3,0.7 4.8,0.7 4.8,4.8 8.3,4.8 8.3,3.5 				"/>
+				<path class="icon1_sm" d="M11.8,2.1h1.4V0.7H9.7c0,0,0,0.7,0,1.5c0.5,0.5,0.7,0.7,1.4,1.3c-0.4,0-1.4,0-1.4,0v1.3h3.4V3.5L11.8,2.1z"
 					/>
-				<path class="st0" d="M16.6,2.1H18V0.7h-3.4c0,0,0,0.7,0,1.5c0.5,0.5,0.7,0.7,1.4,1.3c-0.4,0-1.4,0-1.4,0v1.3H18V3.5L16.6,2.1z"
+				<path class="icon1_sm" d="M16.6,2.1H18V0.7h-3.4c0,0,0,0.7,0,1.5c0.5,0.5,0.7,0.7,1.4,1.3c-0.4,0-1.4,0-1.4,0v1.3H18V3.5L16.6,2.1z"
 					/>
 			</g>
-			<polygon class="st0" points="18,14.1 18.3,11.3 11.4,11.3 4.4,11.3 4.7,14.1 11.4,14.1 11.8,14.1 11.4,14.2 5,16.9 5.2,19.5 
+			<polygon class="icon1_sm" points="18,14.1 18.3,11.3 11.4,11.3 4.4,11.3 4.7,14.1 11.4,14.1 11.8,14.1 11.4,14.2 5,16.9 5.2,19.5 
 				11.4,19.6 11.4,19.6 14.7,19.6 14.5,23.1 11.4,24 11.4,24 11.4,24 8.4,23.2 8.2,21 8.2,21 5.4,21 5.4,21 5.7,25.3 11.4,27 
 				11.4,27 11.4,27 17.1,25.3 17.8,16.9 11.4,16.9 11.4,16.9 11.4,16.9 			"/>
 		</g>
 	</g>
 
-	<animateTransform xlink:href="#icon"
-			attributeName="transform"
-			type="translate"
-			dur="3s"
-			begin="3s"
-			values="-11.5 -15.85; 0 0"
-			keyTimes="0;1"
-			fill="freeze"
-			/>
+	<animateTransform xlink:href="#icon1"
+		attributeName="transform"
+		type="translate"
+		dur="3s"
+		begin="3s"
+		values="-11.5 -15.85; 0 0"
+		keyTimes="0;1"
+		fill="freeze"
+		/>
 
-		<animateTransform xlink:href="#icon"
-			attributeName="transform"
-			type="scale"
-			dur="3s"
-			begin="3s"
-			values="1; 1.2; 0"
-			keyTimes="0; .3;1"
-			fill="freeze"
-			/>
+	<animateTransform xlink:href="#icon1"
+		attributeName="transform"
+		type="scale"
+		dur="3s"
+		begin="3s"
+		values="1; 1.2; 0"
+		keyTimes="0; .3;1"
+		fill="freeze"
+		restart="whenNotActive"
+		id="icon1_sm_anim"
+		/>
 </svg>
