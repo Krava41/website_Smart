@@ -206,10 +206,25 @@ body
 	text-align: right;
 }
 
+.fig_design,
+.fig_tech
+{
+	width: 50%;
+	display: flex;
+	flex-direction: column
+}
+
+.fig_design svg,
+.fig_tech svg
+{
+	max-width: 100%;
+	height: auto;
+}
+
+//.fig_seo svg,
 .fig_tech img,
-.fig_design img,
+//.design_svg,
 .fig_develop img,
-//.fig_seo img,
 .fig_support img
 {
 	max-width: 100%;
