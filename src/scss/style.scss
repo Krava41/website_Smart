@@ -258,12 +258,13 @@ height: 460px;
 {
 	display: flex;
 	justify-content: flex-start;
+	align-items: center;
 	flex-direction: column;
 	flex-wrap: wrap;
 
 }
 
-.aside img
+.aside
 {
 	padding: 10px;
 }
