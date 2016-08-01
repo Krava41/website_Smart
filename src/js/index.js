@@ -22,6 +22,8 @@
 		}
 	}
 
+
+// Page Tech.html display
 	if ( location.pathname == '/design_.html' )
 		$('.design').className = $('.design').className.concat(' selected')
 	if ( location.pathname == '/develop_.html' )
@@ -39,5 +41,11 @@
 		$('.project').className = $('.project').className.concat(' selected')
 	if ( location.pathname == '/contacts_.html' )
 		$('.contacts').className = $('.contacts').className.concat(' selected')
+
+// Text link animate
+
+	console.log($('#path1'))
+	
+
 
 })()
