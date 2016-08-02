@@ -1,20 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" 
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="240px" height="40px">
-	
-	<path id="path">
-		<animate attributeName="d"
-				from="M0,30 h0"
-				to="M0,30 h240"
-				dur="2s"
-				begin="1s"
-				fill="freeze"
-				id="text_run" />
-	</path>
 
-	<text x="0" y="0" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300">
-		<textPath xlink:href="#path">
-			SMART-SITE.PRO
-		</textPath>
+	<text id="smart" y="30" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300">
+		<tspan class="t1" visibility="hidden">S</tspan>
+	 	<tspan dx="-8" class="t2" visibility="hidden">M</tspan>
+		<tspan dx="-8" class="t3" visibility="hidden">A</tspan>
+	 	<tspan dx="-8" class="t4" visibility="hidden">R</tspan>
+	 	<tspan dx="-8" class="t5" visibility="hidden">T</tspan>
+	 	<tspan dx="-8" class="t6" visibility="hidden">-</tspan>
+		<tspan dx="-8" class="t7" visibility="hidden">S</tspan>
+	 	<tspan dx="-8" class="t8" visibility="hidden">I</tspan>
+	 	<tspan dx="-8" class="t9" visibility="hidden">T</tspan>
+	 	<tspan dx="-8" class="t10" visibility="hidden">E</tspan>
+	 	<tspan dx="-8" class="t11" visibility="hidden">.</tspan>
+	 	<tspan dx="-8" class="t12" visibility="hidden">P</tspan>
+	 	<tspan dx="-8" class="t13" visibility="hidden">R</tspan>
+	 	<tspan dx="-8" class="t14" visibility="hidden">O</tspan>
 	</text>
 </svg>

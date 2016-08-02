@@ -2,37 +2,14 @@
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="100%" height="40px">
 
-	<path id="path1">
-		<animate attributeName="d"
-				from="M0,30 h0"
-				to="M0,30 h300"
-				dur="3s"
-				begin="3s"
-				fill="freeze"
-				id="print" />
-	</path>
-
-	<text id="text_prof" x="0" y="0" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300" dx="0 1 1 1 1 1 1 1 1" fill-opacity="1">
-		<animate 
-			attributeName="dx"
-			to="500 400 200 200 200 200 200 200 200"	
-			dur="20s"
-			begin="print.end - 1s"
-			calcMode="linear"
-			
-			fill="freeze"
-			id="run_text"/>
-		<textPath xlink:href="#path1">
-			FESSIONAL
-				<animate 
-					attributeName="fill-opacity"
-					from="1"
-					to="0"
-					dur="3s"
-					begin="run_text.begin"
-					fill="freeze"/>
-		</textPath>
-
-		
+	<text id="text_prof" y="30" fill="#ffffff" font-size="31.7569" font-family="Open Sans" font-weight="300">
+		<tspan dx="0" class="t15" visibility="hidden">F</tspan>
+	 	<tspan dx="-8" class="t16" visibility="hidden">E</tspan>
+		<tspan dx="-8" class="t17" visibility="hidden">S</tspan>
+	 	<tspan dx="-8" class="t18" visibility="hidden">S</tspan>
+	 	<tspan dx="-8" class="t19" visibility="hidden">I</tspan>
+	 	<tspan dx="-8" class="t20" visibility="hidden">N</tspan>
+		<tspan dx="-8" class="t21" visibility="hidden">A</tspan>
+	 	<tspan dx="-8" class="t22" visibility="hidden">L</tspan>
 	</text>
 </svg>
