@@ -64,6 +64,7 @@ body
 	flex-basis: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	flex-direction: column;
 
 	margin-top: 10px;
@@ -98,12 +99,6 @@ body
 //	text-align: center;
 }
 
-.header a img
-{
-//	border: 1px solid red;
-//	width: 240px;
-}
-
 .empty,
 .text_prof
 {
@@ -128,7 +123,8 @@ body
 
 .logo
 {
-//	border: 1px solid yellow;
+	width: 117.3px; hieght: 51.5px;
+
 }
 
 
