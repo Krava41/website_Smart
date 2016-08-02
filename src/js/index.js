@@ -5,21 +5,33 @@
 	NodeList.prototype[Symbol.iterator] = [][Symbol.iterator]
 	console.log("It's ok!!!")
 
-	let $ = (selector) => document.querySelector(selector)
-	let $All = (selector) => document.querySelectorAll(selector)
+	function $(selector)
+	{
+		return document.querySelector(selector)
+	}
 
+	function $All(selector)
+	{
+		return document.querySelectorAll(selector)
+	}
 	
 	function idIcon()
 	{	
-		let $svgs = $('.aside').querySelectorAll('svg')
-		let g = []
-		let index = 0
+		var $svgs = $('.aside').querySelectorAll('svg')
+		var g = []
+		var index = 0
 
-		for ( let $svg of $svgs )
+		$svgs.forEach(function ($svg, index)
 		{
 			g[index] = $svg.querySelector("g")
 			g[index++].setAttribute("id", "icon" + index)
-		}
+		})
+
+		// for ( var $svg of $svgs )
+		// {
+		// 	g[index] = $svg.querySelector("g")
+		// 	g[index++].setAttribute("id", "icon" + index)
+		// }
 	}
 
 // Page Tech.html display
