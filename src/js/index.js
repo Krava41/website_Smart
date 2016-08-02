@@ -21,7 +21,7 @@
 		var g = []
 		var index = 0
 
-		$svgs.forEach(function ($svg, index)
+		Array.from($svgs).forEach(function ($svg, index)
 		{
 			g[index] = $svg.querySelector("g")
 			g[index++].setAttribute("id", "icon" + index)
