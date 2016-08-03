@@ -3,7 +3,7 @@
 	"use strict"
 
 	NodeList.prototype[Symbol.iterator] = [][Symbol.iterator]
-	console.log("It's ok!!!")
+	console.log("Runing index.js!!!")
 
 	function $(selector)
 	{
@@ -26,12 +26,6 @@
 			g[index] = $svg.querySelector("g")
 			g[index++].setAttribute("id", "icon" + index)
 		})
-
-		// for ( var $svg of $svgs )
-		// {
-		// 	g[index] = $svg.querySelector("g")
-		// 	g[index++].setAttribute("id", "icon" + index)
-		// }
 	}
 
 // Page Tech.html display
@@ -101,4 +95,5 @@
 	}
 
 	 letter($texts[0], $texts)
+// END Text link animate (print, run and hide)
 })()
