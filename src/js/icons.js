@@ -151,7 +151,8 @@
     		return
     	}
 
-    	$iconCSS3.transform.baseVal[0].setScale(currentScaleIcon1, currentScaleIcon1)
+        $iconCSS3.setAttribute("transform", "scale(" + currentScaleIcon1 + ")")
+    	//$iconCSS3.transform.baseVal[0].setScale(currentScaleIcon1, currentScaleIcon1)
     	currentScaleIcon1 += stepIcon1
     	requestAnimationFrameICON1 = requestAnimationFrame(doAnim)
 	}
@@ -171,7 +172,7 @@
     	if ( initOpacityIconCSS3 < 1 ) 
     		$iconCSS3big.style.opacity = initOpacityIconCSS3
 
-       	$iconHTML5.transform.baseVal.getItem(0).setScale(currentScaleIcon2, currentScaleIcon2)
+       	$iconHTML5.setAttribute("transform", "scale(" + currentScaleIcon2 + ")")
     	currentScaleIcon2 += stepIcon2
     	requestAnimationFrameICON2 = requestAnimationFrame(doAnimIcon2)
 	}
@@ -191,7 +192,7 @@
     	if ( initOpacityIconHTML5 < 1 ) 
     		$iconHTML5big.style.opacity = initOpacityIconHTML5
 
-    	$iconMySQL.transform.baseVal.getItem(0).setScale(currentScaleIcon3, currentScaleIcon3)
+    	$iconMySQL.setAttribute("transform", "scale(" + currentScaleIcon3 + ")")
     	currentScaleIcon3 += stepIcon3
     	requestAnimationFrameICON3 = requestAnimationFrame(doAnimIcon3)
 	}
@@ -211,7 +212,7 @@
     	if ( initOpacityIconMySQL < 1 ) 
     		$iconMySQLbig.style.opacity = initOpacityIconMySQL
 
-    	$iconPHP.transform.baseVal.getItem(0).setScale(currentScaleIcon4, currentScaleIcon4)
+    	$iconPHP.setAttribute("transform", "scale(" + currentScaleIcon4 + ")")
     	currentScaleIcon4 += stepIcon4
     	requestAnimationFrameICON4 = requestAnimationFrame(doAnimIcon4)
 	}
@@ -231,7 +232,7 @@
     	if ( initOpacityIconPHP < 1 ) 
     		$iconPHPbig.style.opacity = initOpacityIconPHP
 
-    	$iconJS.transform.baseVal.getItem(0).setScale(currentScaleIcon5, currentScaleIcon5)
+    	$iconJS.setAttribute("transform", "scale(" + currentScaleIcon5 + ")")
     	currentScaleIcon5 += stepIcon5
     	requestAnimationFrameICON5 = requestAnimationFrame(doAnimIcon5)
 	}
@@ -251,7 +252,7 @@
     	if ( initOpacityIconJS < 1 ) 
     		$iconJSbig.style.opacity = initOpacityIconJS
 
-    	$iconF.transform.baseVal.getItem(0).setScale(currentScaleIcon6, currentScaleIcon6)
+    	$iconF.setAttribute("transform", "scale(" + currentScaleIcon6 + ")")
     	currentScaleIcon6 += stepIcon6
     	requestAnimationFrameICON6 = requestAnimationFrame(doAnimIcon6)
 	}
@@ -271,7 +272,7 @@
     	if ( initOpacityIconF < 1 ) 
     		$iconFbig.style.opacity = initOpacityIconF
 
-    	$iconW.transform.baseVal.getItem(0).setScale(currentScaleIcon7, currentScaleIcon7)
+    	$iconW.setAttribute("transform", "scale(" + currentScaleIcon7 + ")")
     	currentScaleIcon7 += stepIcon7
     	requestAnimationFrameICON7 = requestAnimationFrame(doAnimIcon7)
 	}
@@ -291,7 +292,7 @@
     	if ( initOpacityIconW < 1 ) 
     		$iconWbig.style.opacity = initOpacityIconW
 
-    	$iconDrupal.transform.baseVal.getItem(0).setScale(currentScaleIcon8, currentScaleIcon8)
+    	$iconDrupal.setAttribute("transform", "scale(" + currentScaleIcon8 + ")")
     	currentScaleIcon8 += stepIcon8
     	requestAnimationFrameICON8 = requestAnimationFrame(doAnimIcon8)
 	}
@@ -311,7 +312,7 @@
     	if ( initOpacityIconDrupal < 1 ) 
     		$iconDrupalbig.style.opacity = initOpacityIconDrupal
 
-    	$iconJoomla.transform.baseVal.getItem(0).setScale(currentScaleIcon9, currentScaleIcon9)
+    	$iconJoomla.setAttribute("transform", "scale(" + currentScaleIcon9 + ")")
     	currentScaleIcon9 += stepIcon9
     	requestAnimationFrameICON9 = requestAnimationFrame(doAnimIcon9)
 	}
