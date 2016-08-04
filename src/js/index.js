@@ -15,29 +15,13 @@
 		return document.querySelectorAll(selector)
 	}
 	
-	function idIcon()
-	{	
-		var $svgs = $('.aside').querySelectorAll('svg')
-		var g = []
-		var index = 0
-
-		Array.from($svgs).forEach(function ($svg, index)
-		{
-			g[index] = $svg.querySelector("g")
-			g[index++].setAttribute("id", "icon" + index)
-		})
-	}
-
 // Page Tech.html display
 	if ( location.pathname == '/design_.html' )
 		$('.design').className = $('.design').className.concat(' selected')
 	if ( location.pathname == '/develop_.html' )
 		$('.develop').className = $('.develop').className.concat(' selected')
 	if ( location.pathname == '/tech_.html' )
-	{
 		$('.tech').className = $('.tech').className.concat(' selected')
-		idIcon()
-	}
 	if ( location.pathname == '/seo_.html' )
 		$('.seo').className = $('.seo').className.concat(' selected')
 	if ( location.pathname == '/support_.html' )
