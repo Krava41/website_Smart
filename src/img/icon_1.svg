@@ -1,13 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg"
 	xmlns:xlink="http://www.w3.org/1999/xlink"
 	width="30" height="45"
-	viewBox="0 0 30 45">
+	viewBox="0 0 30 45"
+	id="svgElement">
 	<style type="text/css">
 		.icon1_sm{fill:#FFFFFF;}
 	</style>
 
 	<g>
-		<g>
+		<g id="iconCSS3">
 			<path class="icon1_sm" d="M21.7,7.5l-2,21.2l-8.3,2.2l-8.3-2.2l-2-21.2H21.7 M22.5,6.8H0.3l2.1,22.5l9,2.4l9-2.4L22.5,6.8L22.5,6.8z"
 				/>
 			<g>
@@ -22,26 +23,4 @@
 				11.4,27 11.4,27 17.1,25.3 17.8,16.9 11.4,16.9 11.4,16.9 11.4,16.9 			"/>
 		</g>
 	</g>
-
-	<animateTransform xlink:href="#icon1"
-		attributeName="transform"
-		type="translate"
-		dur="3s"
-		begin="3s"
-		values="-11.5 -15.85; 0 0"
-		keyTimes="0;1"
-		fill="freeze"
-		/>
-
-	<animateTransform xlink:href="#icon1"
-		attributeName="transform"
-		type="scale"
-		dur="3s"
-		begin="3s"
-		values="1; 1.2; 0"
-		keyTimes="0; .3;1"
-		fill="freeze"
-		restart="whenNotActive"
-		id="icon1_sm_anim"
-		/>
 </svg>
