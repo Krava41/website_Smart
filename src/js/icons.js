@@ -151,7 +151,7 @@
     		return
     	}
 
-    	$iconCSS3.transform.baseVal.getItem(0).setScale(currentScaleIcon1, currentScaleIcon1)
+    	$iconCSS3.transform.baseVal[0].setScale(currentScaleIcon1, currentScaleIcon1)
     	currentScaleIcon1 += stepIcon1
     	requestAnimationFrameICON1 = requestAnimationFrame(doAnim)
 	}
