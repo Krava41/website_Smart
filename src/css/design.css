@@ -1,0 +1,42 @@
+#head
+{
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+}
+#body
+{
+	stroke-dasharray: 200;
+	stroke-dashoffset: 200;
+}
+#wing
+{
+	stroke-dasharray: 400;
+	stroke-dashoffset: 400;
+}
+#tail
+{
+	stroke-dasharray: 100;
+	stroke-dashoffset: 100;
+}
+#paw
+{
+	stroke-dasharray: 300;
+	stroke-dashoffset: 300;
+}
+#down
+{
+	stroke-dasharray: 250;
+	stroke-dashoffset: 250;
+}	
+
+#head,
+#body,
+#wing,
+#tail,
+#paw,
+#down
+{
+	fill: none;
+	stroke: #FFFFFF;
+	stroke-miterlimit: 10;
+}

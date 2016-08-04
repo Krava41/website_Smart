@@ -6,7 +6,7 @@
 	.icon7_sm{fill:#FFFFFF;}
 </style>
 	<g>
-		<g>
+		<g id="iconW">
 			<path class="icon7_sm" d="M1.6,11.2c0,3.8,2.2,7.1,5.4,8.6L2.4,7.3C1.9,8.5,1.6,9.8,1.6,11.2z"/>
 			<path class="icon7_sm" d="M17.7,10.7c0-1.2-0.4-2-0.8-2.6c-0.5-0.8-0.9-1.5-0.9-2.3c0-0.9,0.7-1.7,1.6-1.7c0,0,0.1,0,0.1,0
 				c-1.7-1.6-4-2.5-6.5-2.5c-3.4,0-6.3,1.7-8,4.3c0.2,0,0.4,0,0.6,0c1,0,2.6-0.1,2.6-0.1c0.5,0,0.6,0.7,0.1,0.8c0,0-0.5,0.1-1.1,0.1
@@ -18,26 +18,5 @@
 			<path class="icon7_sm" d="M11.2,0C5,0,0,5,0,11.2c0,6.2,5,11.2,11.2,11.2c6.2,0,11.2-5,11.2-11.2C22.4,5,17.3,0,11.2,0z M11.2,21.9
 				c-5.9,0-10.7-4.8-10.7-10.7c0-5.9,4.8-10.7,10.7-10.7c5.9,0,10.7,4.8,10.7,10.7C21.9,17.1,17.1,21.9,11.2,21.9z"/>
 		</g>
-	
-		<animateTransform xlink:href="#icon7"
-			attributeName="transform"
-			type="translate"
-			dur="3s"
-			begin="9s"
-			values="-11.2 -11.2; 0 0"
-			keyTimes="0;1"
-			fill="freeze"
-			id="icon7_sm_anim"
-			/>
-
-		<animateTransform xlink:href="#icon7"
-			attributeName="transform"
-			type="scale"
-			dur="3s"
-			begin="9s"
-			values="1; 1.2; 0"
-			keyTimes="0; .3;1"
-			fill="freeze"
-			/>
 	</g>
 </svg>
